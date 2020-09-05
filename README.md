@@ -5,7 +5,7 @@ Adjust specifications via config.json.
 
 -------
 Security Issue:
-Many webservers will serve `.json` files willingly, this is bad if our config/database file is ocated within our service area (`/var/www/*` in most cases).
+Many webservers will serve `.json` files willingly, this is bad if our config/database file is located within our service area (`/var/www/*` in most cases).
 
 Fix:
 You can literally change the file extension to ANYTHING, use `.conf` for best security as most webservers will not server them by default.

@@ -13,7 +13,7 @@ You can literally change the file extension to ANYTHING, use `.conf` for best se
 -------
 
 ## Update
- __For quick-setup, possibly unsafe, use DIST/__
+ __For quick-setup, potentially unsafe, you'll literally just drop contents of DIST/ to the directory of your php files being served.__
 
 
 

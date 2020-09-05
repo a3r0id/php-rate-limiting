@@ -32,7 +32,6 @@ You can literally change the file extension to ANYTHING, use `.conf` for best se
 ]
 ```
 [2] Simply transfer the contents of `dist/` to your PHP include path.
-Note: Process may fail on the first run but will stay persistant after the first request through the file.
 
 [3] - Include in your project
 ```php
@@ -41,3 +40,4 @@ require "rate-limiting.php";// Process request
 echo "hello world!";// If not limited, serve the rest of the file.
 ?>
 ```
+Note: Process may fail on the first run but will stay persistant after the first request through the file.

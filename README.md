@@ -10,11 +10,34 @@ Many webservers will serve `.json` files willingly, this is bad if our config/da
 Fix:
 You can literally change the file extension to ANYTHING, use `.conf` for best security as most webservers will not server them by default.
 
+-------
 
-## Usage
+## Update
+ __For quick-setup, possibly unsafe, use DIST/__
+
+
+
+## Usage:
+
+[1] Edit your configuration:
+```json
+[
+    {
+        "database_file_name": "requests.db",
+        "interval_time_seconds": 300,
+        "request_allowance": 25,
+        "redirect_location": "https://google.com",
+        "die_on_rate_limit": false 
+    }
+]
+```
+[2] Simply transfer the contents of `dist/` to your PHP include path.
+Note: Process may fail on the first run but will stay persistant after the first request through the file.
+
+[3] - Include in your project
 ```php
 <?php
-require "rate-limiting.php";
-echo "hello world!";
+require "rate-limiting.php";// Process request
+echo "hello world!";// If not limited, serve the rest of the file.
 ?>
 ```

@@ -1,7 +1,7 @@
 # php-rate-limiting
 A simple system to rate-limit site visitors by time interval/request amount.
 
-[!](https://pbs.twimg.com/profile_images/664136112353492992/Xr4FwuAE_400x400.png)
+![](https://pbs.twimg.com/profile_images/664136112353492992/Xr4FwuAE_400x400.png)
 
 Adjust specifications via config.json.
 

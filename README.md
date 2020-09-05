@@ -22,6 +22,13 @@ You can literally change the file extension to ANYTHING, use `.conf` for best se
 ## Usage:
 
 [1] Edit your configuration:
+
+Notes:
+<br/>
+If "die_on_rate_limit" is false then visitor will be redirected to the "redirect_location" when limited. 
+<br/>
+"request_allowance" should always be (amount to allow + 1) as in regards to the example config, it will limit the visitor on their 25th request, NOT THE 26th!
+
 ```json
 [
     {

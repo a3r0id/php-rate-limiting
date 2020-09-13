@@ -134,6 +134,6 @@ if ($dbIndexable)
     }
 }
 
-// VIOLA!
+// VIOLA! The rest of your page goes below:
 
 ?>

@@ -40,4 +40,3 @@ require "rate-limiting.php";// Process request
 echo "hello world!";// If not limited, serve the rest of the file.
 ?>
 ```
-Note: Process may fail on the first run but will stay persistant after the first request through the file.

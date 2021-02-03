@@ -7,17 +7,8 @@ Adjust specifications via config.json (aka rate-limiting.conf).
 
 -------
 Security Issue:
-Many webservers will serve `.json` files willingly, this is bad if our config/database file is located within our service area (`/var/www/*` in most cases).
-
-Fix:
-You can literally change the file extension to ANYTHING, use `.conf` for best security as most webservers will not serve them by default.
-
+Be sure that your requests cache file cannot be accessed by the public.
 -------
-
-## Update
- __For quick-setup, potentially unsafe, you'll literally just drop contents of DIST/ to the directory of your php files being served.__
-
-
 
 ## Usage:
 

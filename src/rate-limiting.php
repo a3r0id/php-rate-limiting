@@ -116,7 +116,7 @@ if ($dbIndexable)
         $hits = 0;
         foreach ($newDb as $id_1)
         {
-            if ($id_1["ip"] == $id["ip"] && $id["user-agent"] == $id_1["user-agent"])
+            if ($id_1["ip"] == $id["ip"])//&& $id["user-agent"] == $id_1["user-agent"])
             {
                 $hits++;
             }

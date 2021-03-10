@@ -7,7 +7,7 @@ function push_error($error)
     return $dbg["file"].": Line ".$dbg["line"].": ".$error;
 }
 
-// CHECK IF OUR CONFIG FILE EXISTS/ IF NOT, DIE :evil_patrick:
+// CHECK IF OUR CONFIG FILE EXISTS/ IF NOT, EXIT THE SCRIPT
 if (!(file_exists("config.json")))
 {
     die(push_error("No config file found! Looking for \"config.json\"."));

@@ -20,7 +20,7 @@ If "die_on_rate_limit" is false then visitor will be redirected to the "redirect
 ```json
 [
     {
-        "database_file_name": "requests.db",
+        "database_file_name": "/usr/share/requests.json",
         "interval_time_seconds": 300,
         "request_allowance": 25,
         "redirect_location": "https://google.com",

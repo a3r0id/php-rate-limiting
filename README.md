@@ -28,9 +28,7 @@ If "die_on_rate_limit" is false then visitor will be redirected to the "redirect
     }
 ]
 ```
-[2] Simply transfer the contents of `dist/` to your PHP include path.
-
-[3] - Include in your project
+[2] - Include in your project
 ```php
 <?php
 require "rate-limiting.php";// Process request

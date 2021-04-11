@@ -1,6 +1,6 @@
 [
     {
-        "database_file_name": "requests.json",
+        "database_file_name": "/usr/share/requests.json",
         "interval_time_seconds": 300,
         "request_allowance": 25,
         "redirect_location": "https://google.com",

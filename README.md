@@ -6,9 +6,6 @@ A simple system to rate-limit site visitors by time interval/request amount.
 Adjust specifications via config.json (aka rate-limiting.conf).
 
 -------
-Security Issue:
-Be sure that your requests cache file cannot be accessed by the public.
--------
 
 ## Usage:
 

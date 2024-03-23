@@ -1,6 +1,8 @@
 # php-rate-limiting
 A simple system to rate-limit site visitors by time interval/request amount.
 
+## This is NOT a good solution for production use! For a more secure and scalable solution, refer to something like [nikolaposa/rate-limit](https://github.com/nikolaposa/rate-limit).
+
 ![](https://pbs.twimg.com/profile_images/664136112353492992/Xr4FwuAE_400x400.png)
 
 Adjust specifications via config.json (aka rate-limiting.conf).
